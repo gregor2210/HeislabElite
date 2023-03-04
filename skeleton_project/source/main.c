@@ -11,7 +11,6 @@ int main(){
     elevio_init();
 
     State state = IDLE;
-    MotorDirection* current_dir;
 
     while (1)
     {
